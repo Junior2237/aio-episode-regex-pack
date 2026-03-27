@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "name": "Episode Name Extraction Pack",
+  "patterns": [
+    {
+      "name": "Episode Title",
+      "pattern": "(?i)s\\d{1,2}e\\d{1,2}[ ._\\-]+(?!amzn\\b|nf\\b|dsnp\\b|hmax\\b|rarbg\\b|rutracker\\b|triton\\b|flux\\b|galaxyrg\\b|web\\b|webrip\\b|bluray\\b|remux\\b|2160p\\b|1080p\\b|720p\\b|480p\\b|x26[45]\\b|hevc\\b|avc\\b|hdr\\b|dv\\b|truehd\\b|atmos\\b|ddp\\b|aac\\b)([A-Za-z0-9][A-Za-z0-9'&:!?,()\\-]*(?:[ ._\\-]+[A-Za-z0-9][A-Za-z0-9'&:!?,()\\-]*){0,6})"
+    }
+  ]
+}
